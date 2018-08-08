@@ -25,10 +25,8 @@
             "type": "PowerShell",
             "request": "launch",
             "name": "PowerShell Launch Current File w/Args Prompt",
-            "script": "${file}",
-            "args": [
-                "${command:SpecifyScriptArgs}"
-            ],
+            "script": "c:/Users/nino/Documents/GitHub/AzureLazyScripts/startals.ps1",
+            "args": [],
             "cwd": "${file}"
         },
         {
